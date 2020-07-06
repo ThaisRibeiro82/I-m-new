@@ -1,0 +1,695 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.general-padding {
+  padding: 50px 150px 50px 150px;
+}
+
+nav {
+  background: rgb(31, 87, 133);
+  height: 120px;
+  margin: 0;
+  color: white;
+}
+
+.nav-item a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+#menu-wrapper {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 18px;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.logo-wrapper {
+  width: 30%;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#hero {
+  background: #e5e5e5;
+  height: 400px;
+}
+
+#weather-widget {
+  width: 550px;
+  height: 150px;
+  left: 150px;
+  top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #ededed;
+}
+
+#weather-icon {
+  width: 130px;
+  height: 130px;
+  background: white;
+}
+
+#weather-info {
+  width: 386;
+  height: 130px;
+  background: white;
+}
+
+#blog-section {
+  padding-top: 70px;
+  height: 760px;
+}
+
+#blog-container {
+  display: flex;
+  justify-content: space-between;
+  height: 520px;
+}
+
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  height: 456px;
+  background: #ededed;
+}
+
+.blog-image {
+  background: lightgrey;
+  height: 228px;
+  width: 100%;
+}
+
+.blog-description {
+  padding: 0 20px 0 20px;
+}
+
+.blog-blurb {
+  background: white;
+  height: 150px;
+  padding: 10px;
+}
+
+#map {
+  height: 520;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 430px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 150px 120px 150px;
+}
+
+.footer-item {
+  background: #ededed;
+  width: 30%;
+  height: 100%;
+}
+
+/* landing mobile */
+
+.general-padding-mobile {
+  padding: 10px 50px 10px 50px;
+  height: 50px;
+}
+
+#hero-mobile {
+  background: #e5e5e5;
+  height: 200px;
+}
+
+#weather-widget-mobile {
+  width: 500px;
+  height: 100px;
+  left: 50px;
+  top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.landing-header-mobile {
+  padding: 40px;
+  text-align: center;
+  background:  #5a8cc2;
+  color: white;
+}
+
+#blog-container-mobile {
+  display: flex;
+  justify-content: space-between
+  height: 500px;
+}
+
+.blog-item-mobile {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+    padding: 10px;
+  background: #ededed;
+}
+
+.blog-image-mobile {
+  background: lightgrey;
+  height: 250px;
+  width: 100%;
+}
+
+.blog-description-mobile {
+  padding: 0 20px 0 10;
+}
+
+.blog-blurb-mobile {
+  background: white;
+  height: 150px;
+  padding: 20px;
+}
+
+#map-mobile {
+  margin: 10px;
+  padding: 300px;
+  background: grey;
+}
+
+footer-mobile {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.footer-item-mobile {
+  background: #ededed;
+  width: 100%;
+  height: 100%;
+}
+
+/* tickets */
+.tickets-header {
+  padding: 40px;
+  text-align: center;
+  background:  #5a8cc2;
+  color: white;
+}
+
+#date-user-section {
+  display: flex;
+}
+
+#cal-frame {
+  background: #f1f1f1;
+  margin: 50px;
+  padding: 50px;
+}
+
+#cal-frame-mobile {
+  background: #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.text-header {
+  text-align: center;
+}
+
+.text-header-mobile {
+  text-align: left;
+}
+
+#weather-user-section {
+  padding: 50px;
+  margin: 50px;
+  background: #f1f1f1;
+}
+
+#weather-user-section-mobile {
+  padding: 5px;
+  margin: 10px;
+  background: #f1f1f1;
+}
+
+
+#weather-frame {
+  padding: 20px;
+}
+
+#weather-frame-mobile {
+  padding: 5px;
+}
+
+#user-selection {
+  padding: 20px;
+}
+
+#user-selection-mobile {
+  padding: 10px;
+}
+
+
+#user-selection form div {
+  display: flex;
+}
+
+#user-selection form div div{
+  flex: 1;
+  padding: 10px;
+}
+
+#user-header {
+  font-weight: bold;
+}
+
+#cc-info {
+  width: 700px;
+  background: #f1f1f1;
+  padding: 10px;
+  width: 1000px;
+}
+
+#cc-info-mobile {
+  background: #f1f1f1;
+  padding: 10px;
+  margin: 10px;
+}
+
+#cc-info div {
+  padding: 10px;
+  margin: 10px;
+}
+
+#cc-info-mobile div {
+  padding: 10px;
+  margin: 10px;
+}
+
+.cc-form {
+  padding: 5px;
+  background: #ddd9d9;
+  color: black;
+  margin: 5px;
+  border-style: solid;
+  border-color: #747474;
+  border-width: 1px;
+}
+
+.user-form {
+  padding: 5px;
+  background: #ddd9d9;
+  color: black;
+  margin: 5px;
+  border-style: solid;
+  border-color: #747474;
+  border-width: 1px;
+}
+
+
+.confirm-button {
+  background-color: rgb(43, 119, 180);
+  color: #fefefe;
+  cursor: pointer;
+  border-radius: 7px;
+  border: none;
+  padding: 15px;
+  margin: 5px;
+  width: 170px;
+  height: 70px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.confirm-button:hover {
+  background-color: white;
+  color: rgb(43, 119, 180);
+}
+
+.confirm-button:active {
+  background-color: rgb(31, 87, 133);
+  color: #fefefe;
+}
+
+/*------------------------------- Start Attractions css -------------------------------*/
+
+
+/*------------------------------- Start Head Section -------------------------------*/
+
+
+/*------------------------------- Start Alert Banner -------------------------------*/
+
+/*Set the size and colour of the alert banner*/
+.alert-banner{
+  background:  #ff584f;
+  padding:5px;
+  width: 100%;
+  overflow:hidden;
+}
+
+/*Control the alert banner heading e.g setting its start position and changing it with a animation*/
+.alert-banner h4 {
+  position: 0px;
+  animation-name: slide-left-to-right-alt;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+}
+
+/* Animation to move the element from left to the right e.g across the page */
+@keyframes slide-left-to-right-alt {
+  from {
+    margin-left: 5%;
+  }
+
+  to {
+    margin-left: 95%;
+  }
+}
+
+/*------------------------------- End Alert Banner -------------------------------*/
+
+/*Attrations heading section*/
+.attractions-header{
+  padding: 40px;
+  text-align: center;
+  background:  #5a8cc2;
+  color: white;
+}
+
+
+/*------------------------------- End Head Section -------------------------------*/
+
+/*------------------------------- Start Main Body Row Section -------------------------------*/
+
+
+/* Main row body container */
+.attractions-row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+  justify-content: space-between;
+}
+
+/* Create two unequal columns that sits next to each other */
+
+/*------------------------------- Start Main Column One -------------------------------*/
+
+/* Sidebar/left column */
+.attractions-select-side {
+  flex: 30%;
+  padding: 30px;
+}
+
+/* Selection column spacing */
+.attractions-select-section{
+  padding: 20px;
+  color: #d3d3d3;
+  background-image: linear-gradient(to bottom right, rgb(52, 53, 92), rgb(66, 117, 175));
+}
+
+/* Make a part of column left a row*/
+.attractions-side-grid{
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Make each div attractions-side-col a column so we can control the position  for different screen sizes*/
+div.attractions-side-col {
+  flex: 29.499%;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Centers elements in this class*/
+div.center-attractions{
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Selection li styling */
+.attractions-select-section li {
+  list-style: none
+}
+
+/*Style the button on attractions page so it does not look like standard button e.g set colour, control border radius*/
+.attractions-btn{
+  border-radius: 7px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  background-color: rgb(43, 119, 180);
+  font-size: 15px;
+}
+
+/* Styling for when the button is hovered over*/
+.attractions-btn:hover {
+  background-color: white;
+  color: rgb(43, 119, 180);
+  font-size: 15px;
+}
+
+/*------------------------------- End Main Column One -------------------------------*/
+
+/*------------------------------- Start Main Column Two -------------------------------*/
+
+/* Main column right column*/
+.attractions-main {
+  flex: 70%;
+  padding: 10px;
+
+}
+
+/* Make column right a row*/
+.attractions-grid{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Make each div attractions-responsive a column */
+div.attractions-responsive {
+  flex: 17.499%;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+/* Style border of attractions-responsive  columns */
+div.attraction-col{
+  border: 3px dotted rgba(115, 131, 139, 0.596);
+}
+
+/* Set the size of attractions images */
+div.attraction-col img{
+  width: 100%;
+  height: auto;
+}
+
+/* Set the padding and alignment of attrations description */
+div.attraction-desc {
+  padding: 15px;
+  text-align: center;
+}
+/*------------------------------- End Main Column Two -------------------------------*/
+
+/*------------------------------- End Main Body Row Section -------------------------------*/
+
+/* Recommendation heading styling*/
+.recommendation-title{
+  padding: 40px;
+  text-align: center;
+}
+
+/*------------------------------- Start Recommendation Gallery Section -------------------------------*/
+
+/* Gallery div border */
+div.recommendation-gallery {
+  border: 5px inset rgba(196, 228, 246, 0.596);
+}
+
+/* Gallery div background animation for odd divs */
+.recommendation-row .recommendation-responsive:nth-child(odd) div {
+  animation-name:  gallery-odd;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+/* Animation to change color from one colour to another */
+@keyframes gallery-odd {
+  0% {
+    background-color : #456990;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+
+/* Gallery div background animation for even divs */
+.recommendation-row .recommendation-responsive:nth-child(even) div { 
+  animation-name:  gallery-even;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+/* Animation to change color from one colour to another */
+@keyframes gallery-even {
+  0% {
+    background-color: #FF4136;
+  }
+  100% {
+    background-color: #456990;
+  }
+}
+
+/* Gallery hover recommendation effect to give it a sunken look*/
+div.recommendation-gallery:hover {
+  border: 2px ridge rgba(196, 228, 246, 0.507);
+}
+
+/* Gallery recommendation image size*/
+div.recommendation-gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/* Gallery recommendation description */
+div.recommendation-desc {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Gallery recommendations make each of them a column of same size */
+.recommendation-responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+/* Footer section*/
+.footer-block {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:5px;
+}
+
+/*------------------------------- Start media styling -------------------------------*/
+
+
+@media only screen and (max-width: 1500px) {
+
+  /*When screen is this size make attraction sub column only fit two attraction sub columns so display is better placed*/
+  div.attractions-responsive {
+    flex:  34.499%;
+    background-color: white;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+
+  /*When screen is this size make the attractions row a column so the elements are laid out better*/
+  .attractions-row {   
+    flex-direction: column;
+  }
+
+  /*When screen is this size make the attractions-side-grid a row so the elements are laid out better*/
+  .attractions-side-grid{
+    flex-direction: row;
+  }
+
+  /*When screen is this size make each attractions-side-col take up less than 50% so the elements are positioned  better*/
+  div.attractions-side-col {
+    flex: 49.499%;
+  };  
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  /*When screen is this size make the recommendation row only display two per row so the elements are laid out better*/
+  .recommendation-responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+
+  /*When screen is this size make attraction sub column only fit two attraction sub columns so display is better placed*/
+  div.attractions-responsive {
+    flex: 34.499%;
+    background-color: white;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  /*When screen is this size make the recommendation row only display one per row so the elements are laid out better*/
+  .recommendation-responsive {
+    width: 100%;
+    align-items: center;
+  }
+
+  /*When screen is this size make the attractions row only display one per row so the elements are laid out better*/
+  div.attractions-responsive {
+    flex: 100%;
+    background-color: white;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
+
+  /*When screen is this size make attractions-side-grid a column with elements centered so layout is better placed*/
+  .attractions-side-grid{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*When screen is this size make each attractions-side-col take up  almost 100% so the elements are positioned  better*/
+  div.attractions-side-col {
+    flex: 99.499%;
+    text-align:center;
+  }
+  
+}
+
+
+/*------------------------------- End media styling -------------------------------*/
+
+/*------------------------------- End Attractions css -------------------------------*/
